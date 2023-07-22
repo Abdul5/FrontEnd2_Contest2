@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container">
+        <nav class="navBar">
+            <div id="logo"><a href="#"><img src="images/Cookpal.png" alt=""></a></div>
+            <div class="nav-items">
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="profile"><img src="images/MyPic.png" alt=""></div>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="images/Logo.png" alt="">
+    </div>
+    <div class="search-container">
+        <h2>Search For Recipes</h2>
+        <input type="text" id="searchInput" placeholder="Search For Recipes...">
+    </div>
+    <div class="filters">
+        <button class="filter-button active" id="showAll"><p>All Recipes</p></button>
+        <button class="filter-button" id="showVeg"><p>Veg Recipes Only</p></button>
+        <button class="filter-button" id="showNonVeg"><p>Non Veg Recipes</p></button>
+    </div>
+    <div class="hero">
+        <div class="rating-filters">
+            <h2>Filters</h2>
+            <h4>Rating</h4>
+            <label>
+                <input type="radio" name="rating" value="above" id="ratingAbove">
+                Rating Above 4.5
+            </label><br>
+            <label>
+                <input type="radio" name="rating" value="below" id="ratingBelow">
+                Rating Below 4.0
+            </label>
+        </div>
+        <div class="recipe-container" id="recipeContainer">
+            <!-- Recipe cards will be dynamically added here -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="para">
+            <img src="./images/Cookpal.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod exercitationem at eligendi, ab incidunt, tenetur necessitatibus autem, nihil pariatur reprehenderit sunt aliquam officiis quos laboriosam.</p>
+
+        </div>
+        <div class="company">
+            <h2>company</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Activity</a></li>
+            </ul>
+        </div>
+        <div class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Use cases</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Insights</a></li>
+            </ul>
+        </div>
+        <div class="address">
+            <img src="./images/Cookpal.png" alt="">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+            <input type="mail" placeholder="Your Email">
+            <button class="Subscribs">Subscribs</button>
+        </div>
+    </div>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #2a3342;"></i></a>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
